@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 dark:text-white transition-all">
+    <header class="bg-pink-600 text-white p-5 flex justify-between items-center">
+        <div class="text-2xl font-bold">House of sweets</div>
+        <nav class="hidden md:flex space-x-4">
+            <a href="#" class="hover:underline">Home</a>
+            <a href="#" class="hover:underline">About</a>
+            <a href="#" class="hover:underline">Services</a>
+            <a href="#" class="hover:underline">Contact</a>
+        </nav>
+        <button class="md:hidden block text-white">☰</button>
+    </header>
+    <main class="flex flex-col items-center p-10 text-center bg-cover bg-center" style="background-image: url('https://cdn.cdnparenting.com/articles/2018/12/18181943/379414048-H-1024x700.jpg')">
+        <h1 class="text-5xl font-bold mb-4 drop-shadow-2xl text-pink">
+            Sweet Delights Delivered
+        </h1>
+        </p>
+        <button class="mt-6 px-6 py-3 bg-pink-700 text-white text-lg rounded-lg hover:bg-pink-500 transition shadow-lg">
+            Order here
+        </button>
+    </main>
+    <section class="p-10 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white dark:bg-gray-800 shadow-lg rounded-lg p-6 text-center hover:scale-105 transition">
+            <img src="https://www.thespruceeats.com/thmb/tTRmh40O2fljE4UUMu2mq08duQs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/banana-split-truffles-56a0ed0e5f9b58eba4b5433e.jpg" class="mx-auto mb-4 rounded-full">
+            <h2 class="text-xl font-bold">truffels</h2>
+            <p class="text-gray-600 dark:text-gray-300">Truffles are rich chocolate treats with a smooth, creamy center, often coated in cocoa or nuts.</p>
+        </div>
+        <div class="bg-white dark:bg-gray-800 shadow-lg rounded-lg p-6 text-center hover:scale-105 transition">
+            <img src="https://www.foodandwine.com/thmb/vWuWODk9iin9AojPiUseJm9JKp4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/HD-200912-r-chocolate-macarons-cd5344aea289447da6036cf7bc9e19ae.jpg" class="mx-auto mb-4 rounded-full">
+            <h2 class="text-xl font-bold">macarons</h2>
+            <p class="text-gray-600 dark:text-gray-300">Macarons are delicate French pastries made with almond flour, meringue, and a sweet filling. They are crisp on the outside, soft inside, and come in various flavors and colors.</p>
+        </div>
+        <div class="bg-white dark:bg-gray-800 shadow-lg rounded-lg p-6 text-center hover:scale-105 transition">
+            <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/1/29/1/FN_Strawberry-Poke-Cake_s4x3.jpg.rend.hgtvcom.1280.960.85.suffix/1393874276855.webp" class="mx-auto mb-4 rounded-full">
+            <h2 class="text-xl font-bold">cakes</h2>
+            <p class="text-gray-600 dark:text-gray-300">Cakes are sweet baked desserts made from flour, sugar, eggs, and butter, often layered and decorated with frosting or fruit.</p>
+        </div>
+    </section>
+    <section class="p-10">
+        <form class="max-w-lg mx-auto bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+            <label class="block mb-2">Name</label>
+            <input type="text" class="border rounded px-4 py-2 w-full mb-4">
+            <label class="block mb-2">Email</label>
+            <input type="email" class="border rounded px-4 py-2 w-full mb-4">
+            <label class="block mb-2">Message</label>
+            <textarea class="border rounded px-4 py-2 w-full mb-4"></textarea>
+            <button class="bg-pink-500 text-white px-4 py-2 rounded hover:bg-pink-700 w-full transition">Submit</button>
+        </form>
+    </section>
+    <footer class="bg-gray-800 text-gray-400 text-center p-4 mt-10 flex flex-col items-center">
+        <p>&copy; 2025 All Rights Reserved</p>
+        <div class="flex space-x-4 mt-2">
+            <a href="#" class="hover:text-white">Facebook</a>
+            <a href="#" class="hover:text-white">Twitter</a>
+            <a href="#" class="hover:text-white">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>   
